@@ -1,0 +1,17 @@
+# This file contains interesting polynomials 
+# Each line represents a polynomial and its initial interval in the format:
+# coeff1, coeff2, ..., coeffn, interval_start, interval_end, description(optional and cannot include ",")
+# coeff1 represents the leading coefficient(highest degree), and coeffn represents the constant
+
+# For example:
+# 1, -1, 0, -5, 5, example polynomial represents x^2 - x + 0 in range [-5,5] with a description included as "example polynomial"
+
+1, -1, -1, -2, 2, (1) Golden ratio 
+
+1, 0, 0, 2, -5, 5, (2) Cube root of 2
+
+1, 0, -32, 16, -2, -5, 5, (3) Mignotte poly \nM(x)= x^n - 2(cx-1)^2  \n(c and n>= 3) => Sep(M(x))<2/c^{1+n/2} \nChoose c=n=4:  M(x) = x^4 - 2(4x-1)^2 = x^4 -32x^2  + 16x = 2 \nRef: Schonhage
+
+1, 1, 0, -1, -1, -1, -1, -1, 0, 1, 1, -10, 10, (4) Lehmer's number \nIts smallest root > 1 is Lehmer's number: 1.176280818.
+
+1, -6, 11, -6, -5, 5, (5)

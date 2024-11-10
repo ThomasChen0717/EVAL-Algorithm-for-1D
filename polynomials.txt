@@ -1,0 +1,13 @@
+# This file contains polynomial coefficients and intervals for root finding.
+# Each line represents a polynomial and its initial interval in the format:
+# coeff1, coeff2, ..., coeffn, interval_start, interval_end
+# coeff1 represents the leading coefficient(highest degree), and coeffn represents the constant
+# For example:
+# 1, -1, 0, -5, 5 represents x^2 - x + 0 in range [-5,5]
+
+1, -1, 0, -5, 5
+1, -5, 6, -5, 5
+1, 1, -6, -5, 5
+1, -6, 11, -6, -5, 5
+1, 0, 0, 2, -5, 5
+1, -1, -1, -2, 2, Golden Ratio
